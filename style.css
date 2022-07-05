@@ -6,10 +6,6 @@ h1 {
 }
 
 h1 span {
-    /* background-image: linear-gradient(#FBA24F, #FF1E1E); */
-    /* background: -webkit-linear-gradient(45deg, #FBA24F, #FF1E1E);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
     background: #FBA24F;
     background: linear-gradient(to right, #FBA24F 0%, #FF582E 100%);
     -webkit-background-clip: text;
@@ -47,4 +43,20 @@ a {
 .hero-left {
     padding-right: 30px;
     margin-left: 40px;
+}
+
+.about-me {
+    /* margin-top: 120px; */
+    background-image: url(images/about-me.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.about-me-details {
+    max-width: 40%;
+    margin-bottom: 15px;
 }
