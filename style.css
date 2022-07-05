@@ -1,3 +1,50 @@
 h1 {
-    color: brown;
+    font-family: 'Montserrat', sans-serif;
+    color: #575757;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+h1 span {
+    /* background-image: linear-gradient(#FBA24F, #FF1E1E); */
+    /* background: -webkit-linear-gradient(45deg, #FBA24F, #FF1E1E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    background: #FBA24F;
+    background: linear-gradient(to right, #FBA24F 0%, #FF582E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    color: #949494;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #FBA24F 0%, #FF582E 100%);
+    border-radius: 25px;
+    padding: 15px 25px;
+    color: #FFFFFF;
+    box-shadow: -2px 2px 10px #ff9d85;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 0;
+    max-height: 45%;
+}
+
+.hero-left {
+    padding-right: 30px;
+    margin-left: 40px;
 }
